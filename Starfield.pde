@@ -62,7 +62,7 @@ class OddballParticle implements Particle
 	}
 
 	public void show() {
-		fill(155, 0, 0);
+		fill((float)(Math.random()*255), (float)(Math.random()*255), (float)(Math.random()*255));
 		ellipse((float)myX, (float)myY, 15, 15);
 	}
 
